@@ -45,6 +45,7 @@ const Bookdetails = () => {
               ? subject_times.join(", ")
               : "no subject times found",
             subjects: subjects ? subjects.join(", ") : "No subject found",
+            // try to add like a related books option inside the Bookdetails
           };
           setBook(newBook);
         } else {
